@@ -19,6 +19,7 @@ var option = {
       sendId: 'send',                   　　 //发送信息的按钮 id 
       emojiTranslateCls:'emoji-comment',//需要转换成表情（img）的容器类名，只需要添加一个类，即可自动将:kissing_heart:渲染成表情~ 
 };
+
 /*调用方法*/
 var text = new Emoji(option);
 text.init();
