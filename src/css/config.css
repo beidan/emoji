@@ -1,0 +1,56 @@
+/*输入框*/
+#emoji-editor {
+    width: 97%;
+    height: 140px;
+    line-height: 20px;
+    min-height: 7em;
+    overflow: auto;
+    padding: 5px;
+    border-radius: 2px;
+    word-wrap: break-word;
+    text-align: left;
+    border: 1px solid #d2dbe3;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -webkit-user-select: text;
+}
+
+.util {
+    position: relative;
+}
+
+/*表情框*/
+#emojiBox {
+    position: absolute;
+    width: 380px;
+    padding: 10px 0;
+    margin: 70px 0 0 0;
+    border: 1px solid #DADADA;
+}
+
+#emojiBox img {
+    border: none;
+    margin: 3px;
+}
+
+#emojiBox img:hover {
+    cursor: pointer;
+}
+
+#load {
+    margin: 10px 0 10px 10px;
+}
+
+#load:hover {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+.large {
+    transform: scale(1.5);
+}

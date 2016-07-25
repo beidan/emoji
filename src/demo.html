@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../dist/css/emoji.css">
+    <link rel="stylesheet" href="../dist/css/config.css">
+</head>
+<body>
+
+<div class="emoji-comment"> fork我的github或者给赞:kissing_heart::kissing_heart::kissing_heart:么么哒:heart::heart::heart:
+</div>
+<div id="emoji-editor" contenteditable="true" class="emoji-comment">
+</div>
+<div class="util">
+    <div id="emojiContainer">
+        <div id="load" class="emoji emoji_smiley large"></div>
+    </div>
+    <div id="send" class="com-btn">发送信息</div>
+</div>
+
+
+<script src="../dist/js/jquery-1.8.2.min.js"></script>
+<script src="../dist/js/config.js"></script>
+<script>
+    var option = {
+            emojiArray: ['angry', 'anguished', "astonished", "disappointed",
+            "blush", "bowtie", , "cold_sweat", "confounded", "confused",
+            "cry", "crying_cat_face",
+            "relieved", "satisfied", "point_up_2",
+            "relaxed", "scream", "scream_cat", "see_no_evil",
+            "dizzy_face", "expressionless", "fearful",
+            "flushed", "frowning", "full_moon_with_face",
+            "grin", "grinning", "heart_eyes", "heart_eyes_cat",
+            "hushed", "innocent", "joy", "joy_cat",
+            "kissing", "kissing_cat", "kissing_heart",
+            "neutral_face", "open_mouth", "pensive", "persevere",
+            "rage", "pouting_cat", "sleeping", "sleepy", "smile",
+            "kissing_smiling_eyes", "laughing", "mask", "smile_cat", "smiling_imp", "smirk",
+            "smiley", "smirk_cat", "sob", "stuck_out_tongue", "v", "weary", "wink", "worried", "yum",
+            "sweat_smile", "sweat", "triumph", "unamused",
+            "heart", "heavy_exclamation_mark",
+            "stuck_out_tongue_closed_eyes", "stuck_out_tongue_winking_eye", "sun_with_face",
+            "sunglasses", "tired_face",
+            "pill", "point_up", "point_down",
+            "point_left", "point_right", "poop", "pray", "raised_hands",
+            "tada",
+            "\\+1", "-1", "balloon", "bicyclist", "beer",
+            "bomb", "bouquet", "broken_heart", "clap", "crown", "fire", "ghost", "gift", "gift_heart"],
+        textareaId: 'emoji-editor',
+        loadId: 'load',
+        emojiContainer: 'emojiContainer',
+        sendId: 'send',
+        emojiTranslateCls:'emoji-comment',
+    };
+    /*调用方法*/
+    var text = new Emoji(option);
+    text.init();
+</script>
+</body>
+</html>
