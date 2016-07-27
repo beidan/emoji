@@ -40,5 +40,7 @@ text.toText();
   
 ```
 
+[demo地址](http://121.42.190.17/demo/emoji/src/demo.html)
+
 
 
