@@ -26,6 +26,17 @@ text.init();
 
 ```
  
+－ 获取输入框的数据
+```
+text.toText();   
+```
+
+- 将服务器返回的数据显示成表情 [只需给承载的容器加上类，即option的emojiTranslateCls ]
+```
+  <div class="emoji-comment"> fork我的github或者给赞:kissing_heart::kissing_heart::kissing_heart:么么哒:heart::heart::heart:
+  </div>
+  
+```
 
 
 
