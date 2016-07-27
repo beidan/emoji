@@ -8,7 +8,7 @@
 
 > **使用方法：**
 
-1. **在option中配置需要的参数**
+- **在option中配置需要的参数**
 
 ```
 
@@ -27,13 +27,13 @@ text.init();
 
 ```
 --- 
-2. **获取输入框的数据**
+- **获取输入框的数据**
  
 ```
 text.toText();   
 ```
 ---
-3. **将服务器返回的数据显示成表情 [只需给承载的容器加上类，即option的emojiTranslateCls]**
+- **将服务器返回的数据显示成表情 [只需给承载的容器加上类，即option的emojiTranslateCls]**
 ```
   <div class="emoji-comment"> fork我的github或者给赞:kissing_heart::kissing_heart::kissing_heart:么么哒:heart::heart::heart:
   </div>
